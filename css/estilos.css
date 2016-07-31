@@ -1,0 +1,263 @@
+@charset "UTF-8";
+
+body {
+	 padding-top: 50px;
+	 font-family: sans-serif;
+	 background-color: #fff;
+ }
+
+.link-invisivel {
+    position: absolute;
+    text-indent: -9999px;
+}
+
+.navbar-inverse{
+	background-color: #048f88;
+	
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  color: #048f88;
+  background-color: #fff;
+  box-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: .1em;
+}
+
+#home{
+	background: url(../imagens/header.png) no-repeat center fixed;
+   /* opacity: 0.8;*/
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-color: #101010;
+    padding-bottom: 4em;
+}
+
+#home h1{
+	font-size: 4em;
+	color: #fff;
+	letter-spacing: .1em;
+	line-height: 1.5em;
+}
+
+#home h3{
+	padding-top: 3em;
+	font-size: 2.5em;
+	color: #fff;
+	letter-spacing: .1em;
+	line-height: 1.5em;
+}
+
+#home p{
+	color: #fff;
+	letter-spacing: .1em;
+	line-height: 1.5em;
+
+}
+
+#home button{
+ 	background-color: #CFC91D;
+ 	color: #091114;
+ 	text-transform: uppercase;
+ 	font-size: 1.5em;
+ 	padding: 0.5em;
+ 	border-radius: 0px;
+ 	letter-spacing: .2em;
+}
+
+#about{
+	padding: 3em;
+
+}
+
+#about h1{
+	color:  #048f88;
+	font-weight: 500;
+	letter-spacing: .1em;
+	font-size: 2.5em;
+	text-transform: uppercase;
+
+}
+
+#about .text{
+	color: #898C91;
+	font-size: 1.5em;
+	letter-spacing: .1em;
+	line-height: 2em;
+
+}
+
+#about .thumbnail{
+	border-style: none;
+	padding-top: 6em;
+}
+
+#about .caption{
+
+}
+
+#about .glyphicon{
+	color: #04908D;
+	font-size: 2em;
+	text-align: center;
+}
+
+#about .item{
+	text-align: center;
+}
+
+#about h3{
+	color: #7E8186;
+	font-weight: 100;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+#about p{
+	color: #7F8085;
+	line-height: 1.8em;
+}
+
+#services {
+	background-color: #F0F0E8;
+}
+
+#services h1{
+	color:  #048f88;
+	font-weight: 500;
+	letter-spacing: .1em;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	/*padding-left: .1em;*/
+}
+
+#services h3{
+	color: #7E8186;
+	font-weight: 100;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	/*padding-left: .1em;*/
+}
+
+#services .thumbnail{
+	border-style: none;
+	padding-top: 3em;
+}
+
+#services .caption{
+
+}
+
+#services .glyphicon{
+	color: #04908D;
+	font-size: 2em;
+	text-align: center;
+}
+
+#services p{
+	color: #7F8085;
+	line-height: 1.4em;
+	font-size: .80em;
+}
+
+#mywork{
+	padding: 3em;
+}
+
+#mywork h1{
+	color:  #048f88;
+	font-weight: 500;
+	letter-spacing: .1em;
+	font-size: 2.5em;
+	text-transform: uppercase;
+}
+
+#mywork p{
+	color: #898C91;
+	font-size: 1.5em;
+	letter-spacing: .1em;
+	line-height: 2em;
+}
+
+#contact {
+ 	padding: 3em;
+ 	
+}
+
+#contact h1{
+	color:  #048f88;
+	font-weight: 500;
+	letter-spacing: .1em;
+	font-size: 2.5em;
+	text-transform: uppercase;
+}
+
+#contact p{
+	color: #898C91;
+	font-size: 1.5em;
+	letter-spacing: .1em;
+	line-height: 2em;
+}
+
+.form{
+	background-color:#101010;
+	padding-bottom: 3em;
+}
+
+.form .form-group input{
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: .1em solid gray;
+	text-align: center;
+	background-color: #101010;
+	color: #fff;
+	font-size: 1.2em;
+	padding-top: 2em;
+	padding-bottom: 1em;
+	margin-top: 2em;
+}
+
+.form .form-group textarea{
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: .1em solid gray;
+	text-align: center;
+	background-color: #101010;
+	color: #fff;
+	font-size: 1.2em;
+	padding-top: 2em;
+	padding-bottom: 1em;
+	margin-top: 2em;
+}
+
+.form button{
+ 	background-color: #CFC91D;
+ 	color: #091114;
+ 	text-transform: uppercase;
+ 	font-size: 1.5em;
+ 	padding: 0.5em;
+ 	border-radius: 0px;
+ 	letter-spacing: .2em;
+} 
+
+footer{
+	clear: both;
+	background-color: black;
+	padding: 1em;
+
+}
+
+footer p{
+	padding-top: 2em;
+	color: gray;
+	font-size: 1em;
+}
